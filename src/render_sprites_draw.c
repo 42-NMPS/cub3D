@@ -6,7 +6,7 @@
 /*   By: psmolin <psmolin@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 21:11:42 by nmikuka           #+#    #+#             */
-/*   Updated: 2025/11/23 19:18:51 by psmolin          ###   ########.fr       */
+/*   Updated: 2025/11/24 19:55:15 by psmolin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ static void	draw_sprite_column(mlx_image_t *image, t_sprite *sprite,
 	int		y;
 	t_point	tex_coord;
 
-	y = (PIXEL_SIZE - sp->start.u % PIXEL_SIZE) % PIXEL_SIZE;
+	y = (PIXEL_SIZE - sp->start.v % PIXEL_SIZE) % PIXEL_SIZE;
 	while (y < sp->size.y)
 	{
 		sp->screen.v = sp->start.v + y;
