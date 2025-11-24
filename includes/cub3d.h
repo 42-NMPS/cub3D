@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nmikuka <nmikuka@student.42.fr>            +#+  +:+       +#+        */
+/*   By: psmolin <psmolin@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 00:05:05 by psmolin           #+#    #+#             */
-/*   Updated: 2025/11/16 15:41:57 by nmikuka          ###   ########.fr       */
+/*   Updated: 2025/11/24 19:32:51 by psmolin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,8 +76,8 @@
 # define INTERACT_DIST			2.0
 # define INTERACT_ANGLE			1.04719755119659774615
 # define PLAYERSPEED			6.0
-# define ROTATIONSPEED			2.0
-# define MOUSE_XSENS			2.0
+# define ROTATIONSPEED			1.5
+# define MOUSE_XSENS			0.3
 # define MOUSE_YSENS			100.0
 # define RAYCAST_MAX_ITER		200
 # define RAYCAST_MAX_DIST		200.0
