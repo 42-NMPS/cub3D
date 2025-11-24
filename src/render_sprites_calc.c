@@ -44,8 +44,8 @@ static void	calculate_sprite_offset(t_sprite *sprite, t_spriterender *sp,
 {
 	double	vertical_offset;
 
-	sp->start.u = (sp->screen_pos.x) - sp->size.x / 2;
-	sp->start.v = (sp->screen_pos.y) - sp->size.y;
+	sp->start.u = sp->screen_pos.x - sp->size.x / 2;
+	sp->start.v = sp->screen_pos.y - sp->size.y;
 	vertical_offset = sp->max_size * (0.5 - sprite->bottom_offset / 2);
 	sp->start.v += vertical_offset;
 	sp->start.v += sp->max_size * 0.5 * player->jump_height
